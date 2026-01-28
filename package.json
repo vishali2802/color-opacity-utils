@@ -1,0 +1,29 @@
+{
+  "name": "color-opacity-utils",
+  "version": "1.0.0",
+  "description": "Lightweight color utilities to adjust opacity, lighten, darken colors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "color",
+    "opacity",
+    "rgba",
+    "react-native",
+    "ui"
+  ],
+  "author": "Vishali",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.28.6",
+    "@babel/preset-env": "^7.28.6",
+    "typescript": "^5.9.3"
+  }
+}
